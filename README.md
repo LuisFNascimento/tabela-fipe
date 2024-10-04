@@ -1,31 +1,32 @@
-Tabela FIPE - Consulta de Veículos
+# Tabela FIPE - Consulta de Veículos
+
 Este projeto faz consultas à API da Tabela FIPE para buscar informações sobre carros, motos e caminhões, incluindo marcas, modelos e valores de avaliação. Ele foi desenvolvido em Java e faz uso de uma interface de linha de comando para interação com o usuário.
 
-Funcionalidades
-Consulta de marcas de veículos (carros, motos e caminhões).
-Busca de modelos de veículos por marca.
-Filtragem de modelos por trecho do nome.
-Exibição dos valores de avaliação dos veículos em diferentes anos.
-Estrutura do Projeto
-Pacotes:
-br.com.alura.TabelaFipe.principal: Contém a classe principal que gerencia o fluxo da aplicação.
-br.com.alura.TabelaFipe.model: Contém as classes que representam os dados retornados pela API, como Dados, Modelos, e Veiculo.
-br.com.alura.TabelaFipe.service: Contém as classes que realizam o consumo da API e a conversão dos dados.
-Classe Principal: Principal.java
-Esta classe é responsável por:
+## Funcionalidades
 
-Exibir o menu de opções para o usuário escolher entre carro, moto ou caminhão.
-Consultar a API FIPE e retornar as marcas disponíveis com base na opção selecionada.
-Permitir ao usuário filtrar modelos por trecho do nome.
-Exibir uma lista dos veículos e seus respectivos valores de avaliação, filtrados por ano.
-Serviços:
-ConsumoApi: Classe responsável por fazer as requisições à API da Tabela FIPE.
-ConverteDados: Classe responsável por converter os dados recebidos em JSON para objetos Java utilizáveis.
-Tecnologias Utilizadas
-Java 8+
-API REST: API Tabela FIPE
-Biblioteca de JSON: Utilizada para manipulação e conversão dos dados da API.
-Como Executar o Projeto
+* Consulta de marcas de veículos (carros, motos e caminhões).
+* Busca de modelos de veículos por marca.
+* Filtragem de modelos por trecho do nome.
+* Exibição dos valores de avaliação dos veículos em diferentes anos.
+* Estrutura do Projeto
+## Pacotes:
+* br.com.alura.TabelaFipe.principal: Contém a classe principal que gerencia o fluxo da aplicação.
+* br.com.alura.TabelaFipe.model: Contém as classes que representam os dados retornados pela API, como Dados, Modelos, e Veiculo.
+* br.com.alura.TabelaFipe.service: Contém as classes que realizam o consumo da API e a conversão dos dados.
+## Classe Principal: Principal.java
+ Esta classe é responsável por:
+* Exibir o menu de opções para o usuário escolher entre carro, moto ou caminhão.
+* Consultar a API FIPE e retornar as marcas disponíveis com base na opção selecionada.
+* Permitir ao usuário filtrar modelos por trecho do nome.
+* Exibir uma lista dos veículos e seus respectivos valores de avaliação, filtrados por ano.
+## Serviços:
+* ConsumoApi: Classe responsável por fazer as requisições à API da Tabela FIPE.
+* ConverteDados: Classe responsável por converter os dados recebidos em JSON para objetos Java utilizáveis.
+## Tecnologias Utilizadas
+* Java 8+
+* API REST: API Tabela FIPE
+* Biblioteca de JSON: Utilizada para manipulação e conversão dos dados da API.
+## Como Executar o Projeto
 Clone o repositório:
 
 bash
