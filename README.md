@@ -1,5 +1,5 @@
 # Tabela FIPE - Consulta de Veículos
-[![NPM](https://img.shields.io/npm/l/react)](https://github.com/devsuperior/sds1-wmazoni/blob/master/LICENSE)
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/LuisFNascimento/tabela-fipe/blob/main/LICENSE)
 
 Este projeto faz consultas à API da Tabela FIPE para buscar informações sobre carros, motos e caminhões, incluindo marcas, modelos e valores de avaliação. Ele foi desenvolvido em Java e faz uso de uma interface de linha de comando para interação com o usuário.
 
