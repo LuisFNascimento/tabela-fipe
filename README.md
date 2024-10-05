@@ -28,11 +28,10 @@ Este projeto faz consultas à API da Tabela FIPE para buscar informações sobre
 * API REST: API Tabela FIPE
 * Biblioteca de JSON: Utilizada para manipulação e conversão dos dados da API.
 ## Como Executar o Projeto
-Clone o repositório:
-
-bash
-Copiar código
+### Clone o repositório:
+```java
 git clone https://github.com/seuusuario/nome-do-repositorio.git
+```
 Compile o projeto:
 
 bash
