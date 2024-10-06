@@ -38,7 +38,6 @@ javac -d bin -sourcepath src src/br/com/alura/TabelaFipe/principal/Principal.jav
 ```
 ### Execute o projeto:
 ``` bash
-Copiar código
 java -cp bin br.com.alura.TabelaFipe.principal.Principal
 ```
 O programa exibirá o menu de opções para você escolher entre carro, moto ou caminhão.
