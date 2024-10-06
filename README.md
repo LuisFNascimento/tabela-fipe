@@ -29,8 +29,8 @@ Este projeto faz consultas à API da Tabela FIPE para buscar informações sobre
 * Biblioteca de JSON: Utilizada para manipulação e conversão dos dados da API.
 ## Como Executar o Projeto
 ### Clone o repositório:
-```java
-git clone https://github.com/seuusuario/nome-do-repositorio.git
+``` java
+git clone https://github.com/LuisFNascimento/tabela-fipe
 ```
 Compile o projeto:
 
@@ -76,3 +76,9 @@ Contribuições são bem-vindas! Fique à vontade para abrir issues ou enviar pu
 
 Licença
 Este projeto está licenciado sob a licença MIT - veja o arquivo LICENSE para mais detalhes.
+
+# Autor 
+
+Luís Fernando Silva do Nascimento
+
+https://www.linkedin.com/in/lu%C3%ADs-fernando-nascimento/
