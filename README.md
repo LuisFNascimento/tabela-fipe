@@ -32,16 +32,15 @@ Este projeto faz consultas à API da Tabela FIPE para buscar informações sobre
 ``` java
 git clone https://github.com/LuisFNascimento/tabela-fipe
 ```
-Compile o projeto:
-
-bash
-Copiar código
+### Compile o projeto:
+``` bash
 javac -d bin -sourcepath src src/br/com/alura/TabelaFipe/principal/Principal.java
-Execute o projeto:
-
-bash
+```
+### Execute o projeto:
+``` bash
 Copiar código
 java -cp bin br.com.alura.TabelaFipe.principal.Principal
+```
 O programa exibirá o menu de opções para você escolher entre carro, moto ou caminhão.
 
 Exemplo de Execução
