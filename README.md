@@ -40,11 +40,11 @@ javac -d bin -sourcepath src src/br/com/alura/TabelaFipe/principal/Principal.jav
 ``` bash
 java -cp bin br.com.alura.TabelaFipe.principal.Principal
 ```
-O programa exibirá o menu de opções para você escolher entre carro, moto ou caminhão.
+### O programa exibirá o menu de opções para você escolher entre carro, moto ou caminhão.
 
-Exemplo de Execução
-csharp
-Copiar código
+## Exemplo de Execução
+```csharp
+
 *** OPÇÕES ***
 Carro
 Moto
@@ -69,13 +69,16 @@ Digite o código do modelo para buscar os valores de avaliação:
 12345
 
 [Exibição dos veículos com seus valores de avaliação por ano]
-Contribuições
+```
+## Contribuições
 Contribuições são bem-vindas! Fique à vontade para abrir issues ou enviar pull requests.
 
-Licença
+## Licença
 Este projeto está licenciado sob a licença MIT - veja o arquivo LICENSE para mais detalhes.
 
-# Autor 
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/LuisFNascimento/tabela-fipe/blob/main/LICENSE)
+
+## Autor 
 
 Luís Fernando Silva do Nascimento
 
